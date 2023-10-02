@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1aZf5rq2koAnM9w5OH9WZrWNIXHVmSvPOTcDiwdu1xtxtOD+TUl2FCTCVT9l4a0IVvtFosCNfyG6mOdsbG5poQ==",
+  "dgSpecHash": "VYW/yHw+f+5QhAoooBvuxjmvC+2bpPUjaVsWPVynrYOqyGEXMqxDoXPUmkKIqI1RF6qM+mEBRxYu6XZSCJIPhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\agtof\\OneDrive\\Рабочий стол\\ConsoleSQLApp\\ConsoleSQLApp\\ConsoleSQLApp.csproj",
+  "projectFilePath": "X:\\VS2022_Projects\\MyProjects\\ConsoleSQLApp\\ConsoleSQLApp\\ConsoleSQLApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\agtof\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\agtof\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

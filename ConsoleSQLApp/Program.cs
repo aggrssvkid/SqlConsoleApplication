@@ -24,19 +24,19 @@ namespace ConsoleSQLApp
 
             // Далее проверяем входные данные командной строки при запуске приложения. При соответсвующих аргументах
             // командной строки вызыватся соответсвующая функция в коде по заданию.
-            if (args.Length == 1 && args[0] == "1")
+            if (args.Length == 1 && args[0] == "1") // Создать базу данных
                 CreateDB.CreateTable(connection);
-            else if (args.Length == 4 && args[0] == "2")
+            else if (args.Length == 4 && args[0] == "2") // Добавить запись в бд
             {
                 string cmd = $"INSERT INTO Persons (FIO, Birthday, Gender) VALUES ('{args[1]}', '{args[2]}', '{args[3]}')";
                 int rowsAdded = AddRow.Insert(cmd, connection);
                 Console.WriteLine($"RowsAdded:{rowsAdded}");
             }
-            else if (args.Length == 1 && args[0] == "3")
+            else if (args.Length == 1 && args[0] == "3") // Вывести данные из бд.
                 SelectDatasTask3.PrintDatas(connection);
-            else if (args.Length == 1 && args[0] == "4")
+            else if (args.Length == 1 && args[0] == "4") // Добавить 1000000 записей в бд.
                 Add100000Rows.AddRows(connection);
-            else if (args.Length == 1 && args[0] == "5")
+            else if (args.Length == 1 && args[0] == "5") // Замеряем время исполнения запроса
                 SelectDatasTask5.QueryTime(connection);
             connection.Close();
         }
